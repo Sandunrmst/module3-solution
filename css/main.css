@@ -1,52 +1,37 @@
 
 body{
-    background-color: #951C49 !important;
+    background-color: #ffffff !important;
 }
 
 /** HEADER **/
 
+.logo-name .name-s a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #03002b !important;
+}
+
 .bg-nav{
-    background-color: #f6b319 !important;
+    background-color: #e6c477 !important;
 }
 
 .navbar .logo-name .logo-info .logo-s{
     width: 100px;
 }
 
-.navbar .logo-name{
-    width: 370px;
-    display: flex;
+.navbar .font-nav{
+    font-weight: 700 !important;
+    color: #03002b !important;
 }
 
 
-@media (max-width: 500px) { 
-    .navbar .logo-name{
-        width: auto !important;
-    }
-
+.our-menu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
-/* .navbar .logo-name .logo-info{
-    float: left;
-} */
 
-.navbar .logo-name .name{
-    margin-left: 10px;
-}
-
-.navbar .logo-name .name .name-s{
-
-    font-family: 'Lora', serif;
-    color: #557c3e;
-    font-size: 1.1em;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .7;
-
-}
 
 .navitems{
     text-align: center;
@@ -55,12 +40,8 @@ body{
     
 }
 
-.navitems .call-us{
-    color: #567c3f;
-}
-
 .navitems a{
-    color: #951C49;
+    color: #03002b;
 }
 
 .navitems a:hover {
@@ -71,190 +52,31 @@ body{
     color: #567c3f;
 }
 
-.navbar-nav .tel-bg{
-    overflow: hidden;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 8px;
-    border-color: #ffd87b;
-    transition : background-color 1s;
-}
-
-.navbar-nav .tel-bg :hover{
-    background-color: #ffecec;
-}
-
-.navbar-nav .bi-size{
-    font-size: 1.2em;
-
-}
-
-.call-mobile{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #f6b319;
-    overflow: hidden;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 8px;
-    border-color: #ffffff;
-    color: #951C49;
-
-}
-
-.call-mobile .call-us{
-    color: #567c3f;
-}
-
-.tel-info {
-    margin-top: 15px;
-}
-
-.tel-info .call-mobile .tel{
-    margin-right: 12px;
-}
-
-@media (max-width: 767.98px) { 
-    .navbar-nav .icon-list{
-        margin-left: 8px;
-        font-size: 1em;
-        font-weight: 700;
-    }
-
-    .navbar-nav .bi-size{
-        font-size: 1em;
-    
-    }
-
-    .navbar-nav .tel-bg{
-        overflow: hidden;
-        border-style: solid;
-        border-width: 3px;
-        border-radius: 8px;
-        border-color: #951C49;
-        background-color: #ffffff;
-        transition: .2s;
-    }
-
-    .navbar-nav .tel-bg :hover{
-        background-color: #f6b319;
-    }
-
-}
-
-
-
 /** HEADER END**/
+
 
 /** MAIN **/
 
-#main-content{
-    margin-top: 15px;
+.menu .mani-box{
+    background-color: #e6c477;
+    padding: 20px;
+    margin: 5px;
 }
 
-.jumbotron{
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 50px #3F0C1F;
-    border: 2px solid #f6b319;
-
+.menu .mani-box h3{
+   text-align: center;
+   color: #567c3f;
 }
 
-.container .info-list{
-    margin-top: 20px;
-}
-
-.container .info-list .row-list-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.container .info-list .list-box{
-    position: relative;
-    overflow: hidden;
-    object-fit: cover;
-    width: 100%;
-    margin: 8px;
-    height: 250px;
-    border-width: 2px;
-    border-radius: 10px;
-}
-
-.container .info-list .list-box:hover{
-    box-shadow: 0 1px 5px 1px #cccc;
-}
-
-.container .info-list .list-name{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    font-size: 1.4em;
-    color: #f5f5f5;
-    background-color: #000;
-    opacity: 0.8;
-    text-align: center;
-    font-weight: 500;
+.menu .mani-box .top{
+    font-weight: 600;
+    color: #557c3e;
 }
 
 
-.container .info-list .row-list-box .image1{
-    background: url(../images/menu-tile.jpg) no-repeat;
-    background-size: cover;
 
-}
-
-.container .info-list .row-list-box .image2{
-    background: url(../images/specials-tile.jpg) no-repeat;
-    background-size: cover;
-
-}
-
-@media (min-width: 1200px) {
-    .container .jumbotron {
-      background: url(../images/jumbotron_1200.jpg) no-repeat;
-      height: 675px;
-      /* background-size:contain; */
-      background-size: cover;
-    }
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-   
-    /* Home Page */
-    .container .jumbotron {
-      background: url(../images/jumbotron_992.jpg) no-repeat;
-      height: 558px;
-      background-size: cover;
-    /* End Home Page */
-  }
-
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* Home Page */
-    .container .jumbotron {
-      background: url(../images/jumbotron_768.jpg) no-repeat;
-      height: 432px;
-    }
-    /* End Home Page */
-  
-  }
-
-  @media (max-width: 767px) {
-    .container .jumbotron {
-      background: url(../images/jumbotron_768.jpg) no-repeat;
-      height: 432px;
-      /* background-size:contain; */
-      background-size: cover; 
-    }
-  }
-  
 /** MAIN END**/
+
 
 /** FOOTER **/
 
@@ -307,70 +129,5 @@ body{
 
 /** FOOTER END **/
 
-/** Menu Category**/
 
-.cat-row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x))
-}
-
-.container .cat-name{
-    color: white;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 12px;
-
-}
-
-.container .cat-desc{
-    color: rgb(243, 243, 243);
-    text-align: center;
-}
-
-.container .menu-category .item-row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container .menu-category .item-row .cat-main-box{
-    position: relative;
-    /* width: 200px;
-    height: 200px; */
-    overflow: hidden;
-    border: 2px solid #3F0C1F;
-    transition: .2s;
-    /* margin-left: 20px;
-    margin-bottom: 20px; */
-    margin: 5px 5px 5px 5px; 
-}
-
-.container .menu-category .item-row .cat-main-box:hover{
-    box-shadow: 0 1px 5px 1px #cccc;
-}
-
-.container .menu-category .item-row .cat-main-box .item-img{
-    width: 100%;
-}
-
-.container .menu-category .item-row .cat-main-box .item-name{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    color: white;
-    background-color: #000;
-    font-weight: 500;
-    opacity: 0.8;
-}
-
-/** Menu Category END**/
 
