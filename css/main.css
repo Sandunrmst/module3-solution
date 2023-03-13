@@ -5,6 +5,16 @@ body{
 
 /** HEADER **/
 
+.navbar .border{
+    border: 2px solid white;
+} 
+
+.navbar .bg-move:hover{
+    color: #0e0e0e;
+    background-color: #ffffff;
+} 
+
+
 .logo-name .name-s a{
     font-size: 20px;
     font-weight: 700;
